@@ -29,4 +29,14 @@ class Vaga
      * @var string
      */
     public $date;
+    /**
+   * Método responsável por cadastrar uma nova vaga no banco
+   * @return boolean
+   */
+    
+    public function cadastrar(){
+     $this->date = date('Y-m-d H:i:s');
+
+
+    }
 }
