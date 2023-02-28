@@ -1,0 +1,8 @@
+{
+    "name": "wdev/vagascrud",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
