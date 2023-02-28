@@ -9,6 +9,7 @@ if (isset($_POST['title'], $_POST['description'], $_POST['active'])) {
     $obVaga->title = $_POST['title'];
     $obVaga->description = $_POST['description'];
     $obVaga->active = $_POST['active'];
+    echo "<pre>"; print_r($obVaga); echo "</pre>"; exit;
 }
 include_once __DIR__ . '/includes/header.php';
 include_once __DIR__ . '/includes/form.php';
